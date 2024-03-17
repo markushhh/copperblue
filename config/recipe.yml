@@ -1,4 +1,4 @@
-name: goldblue
+name: copperblue
 description: my atomic fedora GNOME
 
 base-image: ghcr.io/ublue-os/silverblue-nvidia
