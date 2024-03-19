@@ -14,8 +14,6 @@ Added and removed packages on the base Fedora atomic Gnome image.
       - konsole
       - micro
     remove:
-      - firefox
-      - firefox-langpacks
       - toolbox #WhyFedoraWhy
     #flatpak
     install:
