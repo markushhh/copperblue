@@ -22,8 +22,8 @@ modules:
       - konsole
       - micro
     remove:
-      - firefox
-      - firefox-langpacks
+#      - firefox
+#      - firefox-langpacks
       - toolbox #WhyFedoraWhy
 
   - type: default-flatpaks
