@@ -1,6 +1,25 @@
 # copperblue
 
-Added and removed packages on the base atomic Fedora Gnome image.
+Added and removed packages on the base Fedora atomic Gnome image.
+
+## Difference to Fedora atomic GNOME
+
+    install:
+      - openssl #WhyFedoraWhy
+      - gnome-tweaks #WhyFedoraWhy
+      - podman-compose #WhyFedoraWhy
+      - fish
+      - starship
+      - distrobox
+      - konsole
+      - micro
+    remove:
+      - firefox
+      - firefox-langpacks
+      - toolbox #WhyFedoraWhy
+    #flatpak
+    install:
+        - org.mozilla.firefox
 
 ## Installation
 
