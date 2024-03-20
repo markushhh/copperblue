@@ -5,9 +5,9 @@ Added and removed packages on the base Fedora atomic Gnome image.
 ## Difference to Fedora atomic GNOME
 
     install:
-      - openssl #WhyFedoraWhy
-      - gnome-tweaks #WhyFedoraWhy
-      - podman-compose #WhyFedoraWhy
+      - openssl
+      - gnome-tweaks
+      - podman-compose
       - fish
       - starship
       - distrobox
