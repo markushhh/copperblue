@@ -16,6 +16,7 @@ modules:
       - openssl
       - gnome-tweaks
       - podman-compose
+      - fish
       - zsh
       - starship
       - distrobox
