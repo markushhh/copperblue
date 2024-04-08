@@ -1,7 +1,7 @@
 name: copperblue
 description: my atomic fedora GNOME
 
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/silverblue
 image-version: latest
 
 modules:
@@ -10,8 +10,7 @@ modules:
       - usr: /usr
 
   - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+#    repos:
     install:
       - openssl
       - gnome-tweaks
