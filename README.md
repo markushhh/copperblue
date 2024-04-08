@@ -8,13 +8,11 @@ Added and removed packages on the base Fedora atomic Gnome image.
       - openssl
       - gnome-tweaks
       - podman-compose
-      - fish
-      - starship
       - distrobox
-      - konsole
-      - micro
     remove:
-      - toolbox #WhyFedoraWhy
+      - firefox
+      - firefox-langpacks
+      - toolbox
     #flatpak
     install:
         - org.mozilla.firefox
