@@ -22,9 +22,10 @@ modules:
       - distrobox
       - konsole
       - micro
+      - btop
     remove:
-#      - firefox
-#      - firefox-langpacks
+      - firefox
+      - firefox-langpacks
       - toolbox
 
   - type: default-flatpaks
