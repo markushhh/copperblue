@@ -1,7 +1,7 @@
 name: copperblue
 description: my atomic fedora GNOME
 
-base-image: ghcr.io/ublue-os/silverblue
+base-image: ghcr.io/ublue-os/silverblue-nvidia
 image-version: latest
 
 modules:
