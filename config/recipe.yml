@@ -17,8 +17,8 @@ modules:
       - podman-compose
       - distrobox
     remove:
-      - firefox
-      - firefox-langpacks
+#      - firefox
+#      - firefox-langpacks
       - toolbox
 
   - type: default-flatpaks
