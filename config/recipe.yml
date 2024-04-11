@@ -10,12 +10,14 @@ modules:
       - usr: /usr
 
   - type: rpm-ostree
-#    repos:
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-39/atim-starship-fedora-39.repo
     install:
       - openssl
       - gnome-tweaks
       - podman-compose
       - distrobox
+      - starship
     remove:
 #      - firefox
 #      - firefox-langpacks
