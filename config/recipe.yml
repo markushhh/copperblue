@@ -22,6 +22,7 @@ modules:
 #      - firefox
 #      - firefox-langpacks
       - toolbox
+      - nvtop
 
   - type: default-flatpaks
     notify: true
